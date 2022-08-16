@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #333 !important;
+}
+.main {
+  background: #9e9e9ed4;
+  width: 500px;
+  height: 412px;
+  margin: 0 auto;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+input[type="text"] {
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+  padding: 0 35px;
+  outline: none;
+  border: none;
+}
+.row {
+  padding-top: 28px;
+}
+.col-3,
+.col-6 {
+  width: 100%;
+}
+.col-3 input,
+.col-6 input {
+  width: 100%;
+  padding: 5px;
+}
+.bt {
+  background: #5b06ab;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .main {
+    width: 280px;
+  }
+}
